@@ -53,7 +53,7 @@ function SidebarContent({
   return (
     <div className="flex h-full flex-col justify-between bg-[#244d97] px-[18px] py-9 text-white">
       <div className="space-y-12">
-        <div className="flex items-center px-3">
+        <div className="flex items-center justify-center px-3">
           <Link href="/dashboard" className="block" onClick={onNavigate}>
             <Logo priority className="w-[72px]" />
           </Link>
